@@ -1,4 +1,6 @@
-    
+#include <xc.h>
+#include "delay.h"
+
 #define	SOLAR_CELL		0
 #define	BATT			11
 
@@ -8,8 +10,9 @@
 //---------------------------------------------------------------------
 
 #define REPET_SAMPELING_COUNTER 4 							//beter be 2^n (2,4,8,16) to help the pic to get easy divide
-
+//-----------------------------------------------------------------------------
 unsigned int readA2D(unsigned char channel)
+//-----------------------------------------------------------------------------
 	{
 	unsigned char i;
 	unsigned int A2D_Result;

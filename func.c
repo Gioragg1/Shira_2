@@ -1,7 +1,7 @@
 //func.c
 
 #include "delay.h"
-
+#include "a2d.h"
 
 //#include "delay.h"
 //#include "Pic_IO.h"

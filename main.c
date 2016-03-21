@@ -63,6 +63,7 @@
 #include <stdio.h>
 #include "CONFIG_BITS.h"
 #include "main.h"
+#include "a2d.h"
 #include "globals.h"
 #include "delay.h"
 #include "delay.c"
@@ -71,7 +72,7 @@
 #include "eeprom.h"		
 #include "usart.c"
 //#include "SW USART.c"
-#include "a2d.c"
+//#include "a2d.c"
 
 #include "func.c"
 

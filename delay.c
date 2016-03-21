@@ -7,9 +7,7 @@
 
 #include	"delay.h"
 
-void
-DelayMs(unsigned char cnt)
-{
+void DelayMs(unsigned char cnt){
 #if	XTAL_FREQ <= 2MHZ
 	do {
 		DelayUs(996);
@@ -32,9 +30,7 @@ DelayMs(unsigned char cnt)
 
 
 
-void
-DelayMs_ISR(unsigned char cnt)
-{
+void DelayMs_ISR(unsigned char cnt){
 #if	XTAL_FREQ <= 2MHZ
 	do {
 		DelayUs(996);
