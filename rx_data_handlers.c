@@ -1,4 +1,5 @@
-
+#include "xc.h"
+#include "stdio.h"
 
 void handle_remote_control( );
 void handle_remote_control_DATA1( );

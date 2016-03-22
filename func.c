@@ -1,7 +1,13 @@
 //func.c
 
+#include <xc.h>
+#include <stdio.h>
+#include "Pic_IO.h"
 #include "delay.h"
 #include "a2d.h"
+#include "main.h"
+#include "globals.h"
+#include "eeprom.h"
 
 //#include "delay.h"
 //#include "Pic_IO.h"

@@ -1,3 +1,5 @@
+#include "xc.h"
+
 #define					RX_BUFF_SIZE	20
 
 

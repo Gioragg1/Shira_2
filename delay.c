@@ -4,7 +4,7 @@
  *
  *	Make sure this code is compiled with full optimization!!!
  */
-
+#include "xc.h"
 #include	"delay.h"
 
 void DelayMs(unsigned char cnt){

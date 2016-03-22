@@ -66,17 +66,20 @@
 #include "a2d.h"
 #include "globals.h"
 #include "delay.h"
-#include "delay.c"
+//#include "delay.c"
 #include "C_Macro_definitiones.h"
 #include "Pic_IO.h"
-#include "eeprom.h"		
-#include "usart.c"
+#include "eeprom.h"
+#include "func.h"
+
+
+//#include "usart.c"
 //#include "SW USART.c"
 //#include "a2d.c"
 
-#include "func.c"
+//#include "func.c"
 
-#include "ISR.c"
+//#include "ISR.c"
 
 //unsigned char eeprom_read( unsigned char address );
 //void eeprom_write( unsigned char address, unsigned char value );
