@@ -71,6 +71,8 @@
 #include "Pic_IO.h"
 #include "eeprom.h"
 #include "func.h"
+#include "usart.h"
+
 
 
 //#include "usart.c"

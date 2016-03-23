@@ -8,6 +8,12 @@
 #ifndef FUNC_H
 #define	FUNC_H
 
+void vbat_check(void);
+void init_system(void);
+void Charging_handler(void);
+void display_voltage(void);
+void short_test_stat_hendler(void);
+
 #ifdef	__cplusplus
 extern "C" {
 #endif
@@ -21,5 +27,5 @@ extern "C" {
 
 #endif	/* FUNC_H */
 
-void init_system(void);
+
 

@@ -8,6 +8,10 @@
 #include "main.h"
 #include "globals.h"
 #include "eeprom.h"
+#include "C_Macro_definitiones.h"
+#include "Pic_IO.h"
+#include "usart.h"
+
 
 //#include "delay.h"
 //#include "Pic_IO.h"
@@ -363,9 +367,8 @@ void stby_stat_hendler( )
       //~~~~~~~~~~~~~~check power grid~~~~~~~~~~~~~
       printf( "\n\r\n\r sw_stat = ST_BY;" );
        // GG change to make threshlold of going to emergency mode higher
-          if(GRID_Voltage_ADC_val>60)       //compensate in for the voltage drop when charging
-          GRID_Voltage_ADC_val-=60;
-      if ( GRID_Voltage_ADC_val < grid_power_low_voltage ) //grid power is to low
+      if ( GRID_Voltage_ADC_val < grid_power_low_voltage+20 ) //grid power is to low
+      //if ( GRID_Voltage_ADC_val < grid_power_low_voltage ) //grid power is to low
         {
           printf( "\n\r GRID_POWER FAIL DETECTED \n\r", power_fail_count );
           //charging_stat = OFF; //CHARGING IS OFF

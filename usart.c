@@ -1,6 +1,8 @@
 #include "xc.h"
+#include "usart.h"
 
-#define					RX_BUFF_SIZE	20
+
+
 
 
 
@@ -11,7 +13,7 @@ unsigned char 	rx_pointer = 0;
 unsigned char		dummy;							//a temp reg for bad data
 unsigned char		number_of_recived_bytes;
 
-#define					RX_TIMEOUT		20				//200ms recive timeout in 10 ms units
+
 unsigned char 	rx_timeout;
 //unsigned char 	check_sum;						//check_sum register
 unsigned char 	enable_sending_data;
