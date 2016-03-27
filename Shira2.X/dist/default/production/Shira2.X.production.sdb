@@ -1,0 +1,1185 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18LF23K22 ]
+[d frameptr 4065 ]
+"67 C:\user\Development\Shira_2/main.h
+[e E8515 POWER_STAT `uc
+POWER_OK 0
+POWER_FAIL 1
+]
+"75
+[e E8519 BATT_STAT `uc
+SHORTED 0
+NEED_CHARGING 1
+FULL_CHARGED 2
+DISSCONECTED 3
+]
+"82
+[e E8525 CHARGING_STAT `uc
+NO_POWER 0
+CHARGING_OFF 1
+TRICKLE_CHARGING 2
+NORMAL_CHARGING 3
+]
+"100
+[e E8543 SWITCH_DIRECTION `uc
+UP 0
+DOWN 1
+]
+"106
+[e E8547 TEST_SW_STAT `uc
+SW_RELEASED 0
+SHORT_PRESS_DETECTED 1
+LONG_PRESS_DETECTED 2
+]
+"111
+[e E8552 MAIN_LED_STAT `uc
+MAIN_LED_OFF 0
+MAIN_LED_ON 1
+]
+"121
+[e E8556 UNIT_TYPE `uc
+SHIRA_2 0
+]
+"67
+[e E8579 POWER_STAT `uc
+POWER_OK 0
+POWER_FAIL 1
+]
+"75
+[e E8583 BATT_STAT `uc
+SHORTED 0
+NEED_CHARGING 1
+FULL_CHARGED 2
+DISSCONECTED 3
+]
+"82
+[e E8589 CHARGING_STAT `uc
+NO_POWER 0
+CHARGING_OFF 1
+TRICKLE_CHARGING 2
+NORMAL_CHARGING 3
+]
+"100
+[e E8607 SWITCH_DIRECTION `uc
+UP 0
+DOWN 1
+]
+"106
+[e E8611 TEST_SW_STAT `uc
+SW_RELEASED 0
+SHORT_PRESS_DETECTED 1
+LONG_PRESS_DETECTED 2
+]
+"111
+[e E8616 MAIN_LED_STAT `uc
+MAIN_LED_OFF 0
+MAIN_LED_ON 1
+]
+"121
+[e E8620 UNIT_TYPE `uc
+SHIRA_2 0
+]
+"224 C:\user\Development\Shira_2/func.c
+[e E8595 . `uc
+INIT 0
+SLEEP 1
+ST_BY 2
+WORK 3
+TEST 4
+ERROR 5
+LONG_TEST 6
+SHORT_TEST 7
+]
+"309
+[e E8719 saved_eeprom_add `uc
+GRID_POWER_LOW_VOLTAGE_EE_ADD 0
+GRID_POWER_LOW_VOLTAGE_LSB_EE_ADD 1
+GRID_POWER_HIGH_VOLTAGE_EE_ADD 2
+GRID_POWER_HIGH_VOLTAGE_LSB_EE_ADD 3
+SPARE1 4
+SPARE2 5
+SPARE3 6
+SPAER4 7
+LONG_PRESS_TIME_EE_ADD 8
+LONG_PRESS_TIME_LSB_EE_ADD 9
+SHORT_PRESS_TIME_MIN_EE_ADD 10
+SHORT_PRESS_TIME_LSB_MIN_EE_ADD 11
+SHORT_PRESS_TIME_MAX_EE_ADD 12
+SHORT_PRESS_TIME_LSB_MAX_EE_ADD 13
+SPARE5 14
+SPARE6 15
+YEAR_TIME_EE_ADD 16
+YEAR_TIME_LSB_EE_ADD 17
+SAVED_TIME_FOR_TEST_EE_ADD 18
+SAVED_TIME_FOR_TEST_LSB_EE_ADD 19
+WEEK_TIME_EE_ADD 20
+WEEK_TIME_LSB_EE_ADD 21
+ERROR_BUZER_COUNT_EE_ADD 22
+ERROR_BUZER_COUNT_LSB_EE_ADD 23
+MAX_BAT_VOLTAGE_FOR_LED_OFF_EE_ADD 24
+MAX_BAT_VOLTAGE_FOR_LED_OFF_LSB_EE_ADD 25
+MIN_BAT_VOLTAGE_FOR_LED_ON_EE_ADD 26
+MIN_BAT_VOLTAGE_FOR_LED_ON_LSB_EE_ADD 27
+BAT_FULL_VOLTAGE_EE_ADD 28
+BAT_FULL_VOLTAGE_LSB_EE_ADD 29
+BAT_IS_DISCONNECTED_VOLTAGE_EE_ADD 30
+BAT_IS_DISCONNECTED_VOLTAGE_LSB_EE_ADD 31
+SPARE11 32
+SPARE12 33
+NUM_OF_BATT_CELLS_EE_ADD 34
+NUM_OF_BATT_CELLS_LSB_EE_ADD 35
+SHORT_TEST_TIME_EE_ADD 36
+SHORT_TEST_TIME_LSB_EE_ADD 37
+LONG_TEST_TIME_EE_ADD 38
+LONG_TEST_TIME_LSB_EE_ADD 39
+]
+"67 C:\user\Development\Shira_2/main.h
+[e E8777 POWER_STAT `uc
+POWER_OK 0
+POWER_FAIL 1
+]
+"75
+[e E8781 BATT_STAT `uc
+SHORTED 0
+NEED_CHARGING 1
+FULL_CHARGED 2
+DISSCONECTED 3
+]
+"82
+[e E8787 CHARGING_STAT `uc
+NO_POWER 0
+CHARGING_OFF 1
+TRICKLE_CHARGING 2
+NORMAL_CHARGING 3
+]
+"100
+[e E8805 SWITCH_DIRECTION `uc
+UP 0
+DOWN 1
+]
+"106
+[e E8809 TEST_SW_STAT `uc
+SW_RELEASED 0
+SHORT_PRESS_DETECTED 1
+LONG_PRESS_DETECTED 2
+]
+"111
+[e E8814 MAIN_LED_STAT `uc
+MAIN_LED_OFF 0
+MAIN_LED_ON 1
+]
+"121
+[e E8818 UNIT_TYPE `uc
+SHIRA_2 0
+]
+"90 C:\user\Development\Shira_2/main.c
+[e E8793 . `uc
+INIT 0
+SLEEP 1
+ST_BY 2
+WORK 3
+TEST 4
+ERROR 5
+LONG_TEST 6
+SHORT_TEST 7
+]
+"338
+[e E8921 saved_eeprom_add `uc
+GRID_POWER_LOW_VOLTAGE_EE_ADD 0
+GRID_POWER_LOW_VOLTAGE_LSB_EE_ADD 1
+GRID_POWER_HIGH_VOLTAGE_EE_ADD 2
+GRID_POWER_HIGH_VOLTAGE_LSB_EE_ADD 3
+SPARE1 4
+SPARE2 5
+SPARE3 6
+SPAER4 7
+LONG_PRESS_TIME_EE_ADD 8
+LONG_PRESS_TIME_LSB_EE_ADD 9
+SHORT_PRESS_TIME_MIN_EE_ADD 10
+SHORT_PRESS_TIME_LSB_MIN_EE_ADD 11
+SHORT_PRESS_TIME_MAX_EE_ADD 12
+SHORT_PRESS_TIME_LSB_MAX_EE_ADD 13
+SPARE5 14
+SPARE6 15
+YEAR_TIME_EE_ADD 16
+YEAR_TIME_LSB_EE_ADD 17
+SAVED_TIME_FOR_TEST_EE_ADD 18
+SAVED_TIME_FOR_TEST_LSB_EE_ADD 19
+WEEK_TIME_EE_ADD 20
+WEEK_TIME_LSB_EE_ADD 21
+ERROR_BUZER_COUNT_EE_ADD 22
+ERROR_BUZER_COUNT_LSB_EE_ADD 23
+MAX_BAT_VOLTAGE_FOR_LED_OFF_EE_ADD 24
+MAX_BAT_VOLTAGE_FOR_LED_OFF_LSB_EE_ADD 25
+MIN_BAT_VOLTAGE_FOR_LED_ON_EE_ADD 26
+MIN_BAT_VOLTAGE_FOR_LED_ON_LSB_EE_ADD 27
+BAT_FULL_VOLTAGE_EE_ADD 28
+BAT_FULL_VOLTAGE_LSB_EE_ADD 29
+BAT_IS_DISCONNECTED_VOLTAGE_EE_ADD 30
+BAT_IS_DISCONNECTED_VOLTAGE_LSB_EE_ADD 31
+SPARE11 32
+SPARE12 33
+NUM_OF_BATT_CELLS_EE_ADD 34
+NUM_OF_BATT_CELLS_LSB_EE_ADD 35
+SHORT_TEST_TIME_EE_ADD 36
+SHORT_TEST_TIME_LSB_EE_ADD 37
+LONG_TEST_TIME_EE_ADD 38
+LONG_TEST_TIME_LSB_EE_ADD 39
+]
+"14 C:\user\Development\Shira_2/a2d.c
+[v _readA2D readA2D `(ui  1 e 2 0 ]
+"10 C:\user\Development\Shira_2/delay.c
+[v _DelayMs DelayMs `(v  1 e 0 0 ]
+"36 C:\user\Development\Shira_2/func.c
+[v _init_system init_system `(v  1 e 0 0 ]
+"93
+[v _blink_RED_LED blink_RED_LED `(v  1 e 0 0 ]
+"137
+[v _activate_buzzer activate_buzzer `(v  1 e 0 0 ]
+"151
+[v _buzz_off buzz_off `(v  1 e 0 0 ]
+"168
+[v _buzz_on buzz_on `(v  1 e 0 0 ]
+"191
+[v _blink_GREEN_LED_and_RED_LED_and_BUZZER blink_GREEN_LED_and_RED_LED_and_BUZZER `(v  1 e 0 0 ]
+"207
+[v _vbat_check vbat_check `(v  1 e 0 0 ]
+"244
+[v _Charging_handler Charging_handler `(v  1 e 0 0 ]
+"279
+[v _load_int_from_eeprom load_int_from_eeprom `(ui  1 e 2 0 ]
+"288
+[v _save_int_to_eeprom save_int_to_eeprom `(v  1 e 0 0 ]
+"307
+[v _eeprom_data_refresh eeprom_data_refresh `(v  1 e 0 0 ]
+"342
+[v _eeprom_time_delay eeprom_time_delay `(v  1 e 0 0 ]
+"352
+[v _stby_stat_hendler stby_stat_hendler `(v  1 e 0 0 ]
+"394
+[v _display_voltage display_voltage `(v  1 e 0 0 ]
+"400
+[v _work_stat_hendler work_stat_hendler `(v  1 e 0 0 ]
+"451
+[v _test_stat_hendler test_stat_hendler `(v  1 e 0 0 ]
+"482
+[v _error_stat_hendler error_stat_hendler `(v  1 e 0 0 ]
+"517
+[v _sleep_stat_hendler sleep_stat_hendler `(v  1 e 0 0 ]
+"628
+[v _long_test_stat_hendler long_test_stat_hendler `(v  1 e 0 0 ]
+"695
+[v _short_test_stat_hendler short_test_stat_hendler `(v  1 e 0 0 ]
+"758
+[v _output_hendler output_hendler `(v  1 e 0 0 ]
+"12 C:\user\Development\Shira_2/ISR.c
+[v _ISR ISR `II(v  1 e 0 0 ]
+"93 C:\user\Development\Shira_2/main.c
+[v _main main `(v  1 e 0 0 ]
+"22 C:\user\Development\Shira_2/usart.c
+[v _init_USART init_USART `(v  1 e 0 0 ]
+"51
+[v _putch putch `(v  1 e 0 0 ]
+"59
+[v _putch_ putch_ `(v  1 e 0 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\EEP\busy_eep.c
+[v _Busy_eep Busy_eep `(v  1 e 0 0 ]
+"23 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\EEP\read_B.c
+[v _Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\EEP\write_B.c
+[v _Write_b_eep Write_b_eep `(v  1 e 0 0 ]
+"13 C:\user\Development\Shira_2/globals.h
+[v _test_sw_count test_sw_count `ui  1 e 2 0 ]
+"14
+[v _GRID_Voltage_ADC_val GRID_Voltage_ADC_val `ui  1 e 2 0 ]
+[v _Vbat_ADC_val Vbat_ADC_val `ui  1 e 2 0 ]
+"15
+[v _Vin_ADC_accum Vin_ADC_accum `ui  1 e 2 0 ]
+[v _Vbat_ADC_val_accum Vbat_ADC_val_accum `ui  1 e 2 0 ]
+"16
+[v _previous_charge_stat previous_charge_stat `ui  1 e 2 0 ]
+"17
+[v _previous_trickle_stat previous_trickle_stat `ui  1 e 2 0 ]
+"18
+[v _test_led_time_count test_led_time_count `ui  1 e 2 0 ]
+"19
+[v _normal_charging normal_charging `uc  1 e 1 0 ]
+"20
+[v _trickl_charging trickl_charging `uc  1 e 1 0 ]
+"21
+[v _red_led red_led `uc  1 e 1 0 ]
+"22
+[v _green_led green_led `uc  1 e 1 0 ]
+"24
+[v _saved_hours_counter saved_hours_counter `ui  1 e 2 0 ]
+"25
+[v _week_in_houres week_in_houres `ui  1 e 2 0 ]
+"26
+[v _saved_error_buzzer_count saved_error_buzzer_count `ui  1 e 2 0 ]
+"27
+[v _error_buzzer_count error_buzzer_count `uc  1 e 1 0 ]
+"28
+[v _grid_power_low_voltage grid_power_low_voltage `ui  1 e 2 0 ]
+"29
+[v _grid_power_high_voltage grid_power_high_voltage `ui  1 e 2 0 ]
+"30
+[v _long_press_time long_press_time `ui  1 e 2 0 ]
+"31
+[v _short_press_time_min short_press_time_min `ui  1 e 2 0 ]
+"32
+[v _short_press_time_max short_press_time_max `ui  1 e 2 0 ]
+"33
+[v _year_time year_time `ui  1 e 2 0 ]
+"34
+[v _shorted_bat_voltage shorted_bat_voltage `ui  1 e 2 0 ]
+"36
+[v _batt_full_voltage batt_full_voltage `ui  1 e 2 0 ]
+"38
+[v _num_of_bat_cells num_of_bat_cells `ui  1 e 2 0 ]
+"40
+[v _total_shorted_bat_voltage total_shorted_bat_voltage `ui  1 e 2 0 ]
+"42
+[v _total_batt_full_voltage total_batt_full_voltage `ui  1 e 2 0 ]
+"43
+[v _total_bat_is_disconnected_voltage total_bat_is_disconnected_voltage `ui  1 e 2 0 ]
+"44
+[v _total_led_off_bat_voltage total_led_off_bat_voltage `ui  1 e 2 0 ]
+"45
+[v _total_led_on_bat_voltage total_led_on_bat_voltage `ui  1 e 2 0 ]
+"48
+[v _test_time_count test_time_count `ui  1 e 2 0 ]
+"49
+[v _min_bat_voltage_for_test min_bat_voltage_for_test `ui  1 e 2 0 ]
+"50
+[v _short_time_test_pass short_time_test_pass `ui  1 e 2 0 ]
+"51
+[v _long_time_test_pass long_time_test_pass `ui  1 e 2 0 ]
+"53
+[v _test_faild_flag test_faild_flag `SSi  1 s 2 test_faild_flag ]
+[v globals@test_faild_flag test_faild_flag `SSi  1 s 2 test_faild_flag ]
+"58
+[v _bat_is_disconnected_voltage bat_is_disconnected_voltage `ui  1 e 2 0 ]
+"59
+[v _led_off_bat_voltage led_off_bat_voltage `ui  1 e 2 0 ]
+"60
+[v _led_on_bat_voltage led_on_bat_voltage `ui  1 e 2 0 ]
+"63
+[v _WDT_cnter WDT_cnter `ui  1 e 2 0 ]
+"64
+[v _exit_sleep_press exit_sleep_press `ui  1 e 2 0 ]
+"65
+[v _exit_sleep_count exit_sleep_count `ui  1 e 2 0 ]
+"90 C:\user\Development\Shira_2/main.c
+[v _sw_stat sw_stat `E8595  1 e 1 0 ]
+[v _last_sw_stat last_sw_stat `E8595  1 e 1 0 ]
+"67 C:\user\Development\Shira_2/main.h
+[v _power_stat power_stat `E8515  1 e 1 0 ]
+"75
+[v _batt_stat batt_stat `E8519  1 e 1 0 ]
+"82
+[v _charging_stat charging_stat `E8525  1 e 1 0 ]
+"106
+[v _Switch_stat Switch_stat `E8547  1 e 1 0 ]
+"111
+[v _main_led_stat main_led_stat `E8552  1 e 1 0 ]
+[s S46 . 2 `uc 1 msec5 1 0 :1:0 
+`uc 1 msec10 1 0 :1:1 
+`uc 1 msec100 1 0 :1:2 
+`uc 1 msec500 1 0 :1:3 
+`uc 1 msec1000 1 0 :1:4 
+`uc 1 sec10 1 0 :1:5 
+`uc 1 min1 1 0 :1:6 
+`uc 1 min10 1 0 :1:7 
+`uc 1 hour1 1 1 :1:0 
+]
+"162
+[v _stat stat `S46  1 e 2 0 ]
+"164
+[v _Count_100m Count_100m `uc  1 e 1 0 ]
+"165
+[v _Count_1000m Count_1000m `uc  1 e 1 0 ]
+"166
+[v _Count_500m Count_500m `uc  1 e 1 0 ]
+"167
+[v _Count_10m Count_10m `uc  1 e 1 0 ]
+"168
+[v _Count_10Sec Count_10Sec `uc  1 e 1 0 ]
+"169
+[v _Count_1min Count_1min `uc  1 e 1 0 ]
+"170
+[v _Count_10min Count_10min `uc  1 e 1 0 ]
+"171
+[v _Count_1hour Count_1hour `uc  1 e 1 0 ]
+"173
+[v _start_analog_sequence_flag start_analog_sequence_flag `uc  1 e 1 0 ]
+"174
+[v _analog_delay_count analog_delay_count `uc  1 e 1 0 ]
+"175
+[v _start_sampling_flag start_sampling_flag `uc  1 e 1 0 ]
+"177
+[v _second_sample_count second_sample_count `uc  1 e 1 0 ]
+"178
+[v _power_fail_count power_fail_count `uc  1 e 1 0 ]
+"214
+[v _msec100buzz msec100buzz `uc  1 e 1 0 ]
+"283
+[v _last_main_led_stat last_main_led_stat `uc  1 e 1 0 ]
+"4 C:\user\Development\Shira_2/usart.c
+[v _rx_buufer rx_buufer `[20]uc  1 e 20 0 ]
+"5
+[v _data_buff data_buff `[20]uc  1 e 20 0 ]
+"6
+[v _rx_pointer rx_pointer `uc  1 e 1 0 ]
+"8
+[v _dummy dummy `uc  1 e 1 0 ]
+"9
+[v _number_of_recived_bytes number_of_recived_bytes `uc  1 e 1 0 ]
+"12
+[v _rx_timeout rx_timeout `uc  1 e 1 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18lf23k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"93
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"142
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+[s S243 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 FVRS 1 0 :2:4 
+`uc 1 FVRST 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"656
+[s S248 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 FVRS0 1 0 :1:4 
+`uc 1 FVRS1 1 0 :1:5 
+]
+[u S252 . 1 `S243 1 . 1 0 `S248 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES252  1 e 1 @3906 ]
+"2584
+[v _WPUB WPUB `VEuc  1 e 1 @3937 ]
+[s S425 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"6646
+[s S434 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S443 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 AN13 1 0 :1:5 
+`uc 1 TX2 1 0 :1:6 
+`uc 1 RX2 1 0 :1:7 
+]
+[s S452 . 1 `uc 1 FLT0 1 0 :1:0 
+`uc 1 C12IN3M 1 0 :1:1 
+`uc 1 P1B 1 0 :1:2 
+`uc 1 C12IN2M 1 0 :1:3 
+`uc 1 T5G 1 0 :1:4 
+`uc 1 T1G 1 0 :1:5 
+`uc 1 CK2 1 0 :1:6 
+`uc 1 DT2 1 0 :1:7 
+]
+[s S461 . 1 `uc 1 SRI 1 0 :1:0 
+`uc 1 C12IN3N 1 0 :1:1 
+`uc 1 CTED1 1 0 :1:2 
+`uc 1 C12IN2N 1 0 :1:3 
+`uc 1 P1D 1 0 :1:4 
+`uc 1 CCP3 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S470 . 1 `uc 1 CCP4 1 0 :1:0 
+`uc 1 P1C 1 0 :1:1 
+`uc 1 SDA2 1 0 :1:2 
+`uc 1 CTED2 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T3CKI 1 0 :1:5 
+]
+[s S477 . 1 `uc 1 SS2 1 0 :1:0 
+`uc 1 SCL2 1 0 :1:1 
+`uc 1 SDI2 1 0 :1:2 
+`uc 1 P2A 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 P3A 1 0 :1:5 
+]
+[s S484 . 1 `uc 1 NOT_SS2 1 0 :1:0 
+]
+[s S486 . 1 `uc 1 nSS2 1 0 :1:0 
+`uc 1 SCK2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SDO2 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 P2B 1 0 :1:5 
+]
+[s S493 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S496 . 1 `S425 1 . 1 0 `S434 1 . 1 0 `S443 1 . 1 0 `S452 1 . 1 0 `S461 1 . 1 0 `S470 1 . 1 0 `S477 1 . 1 0 `S484 1 . 1 0 `S486 1 . 1 0 `S493 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES496  1 e 1 @3969 ]
+"7532
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S265 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"7580
+[s S274 . 1 `uc 1 LA0 1 0 :1:0 
+]
+[s S276 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+]
+[s S279 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LA2 1 0 :1:2 
+]
+[s S282 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LA3 1 0 :1:3 
+]
+[s S285 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LA4 1 0 :1:4 
+]
+[s S288 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LA5 1 0 :1:5 
+]
+[s S291 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LA6 1 0 :1:6 
+]
+[s S294 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S297 . 1 `S265 1 . 1 0 `S274 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S282 1 . 1 0 `S285 1 . 1 0 `S288 1 . 1 0 `S291 1 . 1 0 `S294 1 . 1 0 ]
+[v _LATAbits LATAbits `VES297  1 e 1 @3977 ]
+"7664
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S659 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"7712
+[s S668 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S670 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S673 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S676 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S679 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S682 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S685 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S688 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S691 . 1 `S659 1 . 1 0 `S668 1 . 1 0 `S670 1 . 1 0 `S673 1 . 1 0 `S676 1 . 1 0 `S679 1 . 1 0 `S682 1 . 1 0 `S685 1 . 1 0 `S688 1 . 1 0 ]
+[v _LATBbits LATBbits `VES691  1 e 1 @3978 ]
+"7796
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S584 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"7844
+[s S593 . 1 `uc 1 LC0 1 0 :1:0 
+]
+[s S595 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+]
+[s S598 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LC2 1 0 :1:2 
+]
+[s S601 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LC3 1 0 :1:3 
+]
+[s S604 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LC4 1 0 :1:4 
+]
+[s S607 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LC5 1 0 :1:5 
+]
+[s S610 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LC6 1 0 :1:6 
+]
+[s S613 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S616 . 1 `S584 1 . 1 0 `S593 1 . 1 0 `S595 1 . 1 0 `S598 1 . 1 0 `S601 1 . 1 0 `S604 1 . 1 0 `S607 1 . 1 0 `S610 1 . 1 0 `S613 1 . 1 0 ]
+[v _LATCbits LATCbits `VES616  1 e 1 @3979 ]
+"7928
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8149
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8370
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S1572 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"9744
+[s S1581 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1584 . 1 `S1572 1 . 1 0 `S1581 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1584  1 e 1 @4006 ]
+"9788
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"9807
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"9826
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"9900
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"10361
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"10741
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"10813
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"10818
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"10895
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S1315 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"12018
+[s S1324 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S1327 . 1 `uc 1 ABDEN1 1 0 :1:0 
+]
+[s S1329 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S1332 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BRG161 1 0 :1:3 
+]
+[s S1335 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DTRXP1 1 0 :1:5 
+]
+[s S1338 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCIDL1 1 0 :1:6 
+]
+[s S1341 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1344 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S1347 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXDTP 1 0 :1:5 
+]
+[s S1350 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXDTP1 1 0 :1:5 
+]
+[s S1353 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+]
+[s S1356 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+]
+[s S1359 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[s S1362 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+]
+[s S1365 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S1368 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1371 . 1 `S1315 1 . 1 0 `S1324 1 . 1 0 `S1327 1 . 1 0 `S1329 1 . 1 0 `S1332 1 . 1 0 `S1335 1 . 1 0 `S1338 1 . 1 0 `S1341 1 . 1 0 `S1344 1 . 1 0 `S1347 1 . 1 0 `S1350 1 . 1 0 `S1353 1 . 1 0 `S1356 1 . 1 0 `S1359 1 . 1 0 `S1362 1 . 1 0 `S1365 1 . 1 0 `S1368 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES1371  1 e 1 @4024 ]
+"13120
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"13190
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S135 . 1 `uc 1 NVCFG 1 0 :2:0 
+`uc 1 PVCFG 1 0 :2:2 
+`uc 1 . 1 0 :3:4 
+`uc 1 TRIGSEL 1 0 :1:7 
+]
+"13213
+[s S140 . 1 `uc 1 NVCFG0 1 0 :1:0 
+`uc 1 NVCFG1 1 0 :1:1 
+`uc 1 PVCFG0 1 0 :1:2 
+`uc 1 PVCFG1 1 0 :1:3 
+]
+[s S145 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S148 . 1 `S135 1 . 1 0 `S140 1 . 1 0 `S145 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES148  1 e 1 @4033 ]
+"13257
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"13387
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"13406
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"15584
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"15702
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"15721
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+"15740
+[v _RCON RCON `VEuc  1 e 1 @4048 ]
+"15955
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S1648 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16856
+[s S1657 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1666 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1683 . 1 `S1648 1 . 1 0 `S1657 1 . 1 0 `S1666 1 . 1 0 `S1657 1 . 1 0 `S1666 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1683  1 e 1 @4082 ]
+"17779
+[v _CREN1 CREN1 `VEb  1 e 0 @32092 ]
+"17951
+[v _FERR1 FERR1 `VEb  1 e 0 @32090 ]
+"17971
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"17981
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"17983
+[v _GO_DONE GO_DONE `VEb  1 e 0 @32273 ]
+"18043
+[v _INT1F INT1F `VEb  1 e 0 @32640 ]
+"18329
+[v _OERR1 OERR1 `VEb  1 e 0 @32089 ]
+"18497
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"18565
+[v _RC1IE RC1IE `VEb  1 e 0 @31981 ]
+"18567
+[v _RC1IF RC1IF `VEb  1 e 0 @31989 ]
+"18597
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"18599
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"18769
+[v _SPEN1 SPEN1 `VEb  1 e 0 @32095 ]
+"19147
+[v _TMR1IE TMR1IE `VEb  1 e 0 @31976 ]
+"19149
+[v _TMR1IF TMR1IF `VEb  1 e 0 @31984 ]
+"19237
+[v _TRISA1 TRISA1 `VEb  1 e 0 @31889 ]
+"19267
+[v _TRISC0 TRISC0 `VEb  1 e 0 @31904 ]
+"19279
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"19281
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"19283
+[v _TRMT1 TRMT1 `VEb  1 e 0 @32097 ]
+"19433
+[v _nRBPU nRBPU `VEb  1 e 0 @32655 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `C[4]ui  1 s 8 hexpowers ]
+"369
+[v _octpowers octpowers `C[6]ui  1 s 12 octpowers ]
+"93 C:\user\Development\Shira_2/main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"358
+} 0
+"400 C:\user\Development\Shira_2/func.c
+[v _work_stat_hendler work_stat_hendler `(v  1 e 0 0 ]
+{
+"449
+} 0
+"207
+[v _vbat_check vbat_check `(v  1 e 0 0 ]
+{
+"241
+} 0
+"451
+[v _test_stat_hendler test_stat_hendler `(v  1 e 0 0 ]
+{
+"477
+} 0
+"352
+[v _stby_stat_hendler stby_stat_hendler `(v  1 e 0 0 ]
+{
+"391
+} 0
+"517
+[v _sleep_stat_hendler sleep_stat_hendler `(v  1 e 0 0 ]
+{
+"626
+} 0
+"14 C:\user\Development\Shira_2/a2d.c
+[v _readA2D readA2D `(ui  1 e 2 0 ]
+{
+[v readA2D@channel channel `uc  1 a 1 wreg ]
+"32
+[v readA2D@_dcnt_180 _dcnt `uc  1 a 1 21 ]
+"27
+[v readA2D@_dcnt _dcnt `uc  1 a 1 20 ]
+"18
+[v readA2D@A2D_Result A2D_Result `ui  1 a 2 23 ]
+"17
+[v readA2D@i i `uc  1 a 1 22 ]
+"14
+[v readA2D@channel channel `uc  1 a 1 wreg ]
+"20
+[v readA2D@channel channel `uc  1 a 1 19 ]
+"45
+} 0
+"36 C:\user\Development\Shira_2/func.c
+[v _init_system init_system `(v  1 e 0 0 ]
+{
+"77
+} 0
+"22 C:\user\Development\Shira_2/usart.c
+[v _init_USART init_USART `(v  1 e 0 0 ]
+{
+"49
+} 0
+"191 C:\user\Development\Shira_2/func.c
+[v _blink_GREEN_LED_and_RED_LED_and_BUZZER blink_GREEN_LED_and_RED_LED_and_BUZZER `(v  1 e 0 0 ]
+{
+[v blink_GREEN_LED_and_RED_LED_and_BUZZER@blinks blinks `uc  1 a 1 wreg ]
+"192
+[v blink_GREEN_LED_and_RED_LED_and_BUZZER@i i `uc  1 a 1 33 ]
+"191
+[v blink_GREEN_LED_and_RED_LED_and_BUZZER@blinks blinks `uc  1 a 1 wreg ]
+[v blink_GREEN_LED_and_RED_LED_and_BUZZER@timeMs timeMs `ui  1 p 2 30 ]
+"194
+[v blink_GREEN_LED_and_RED_LED_and_BUZZER@blinks blinks `uc  1 a 1 32 ]
+"204
+} 0
+"695
+[v _short_test_stat_hendler short_test_stat_hendler `(v  1 e 0 0 ]
+{
+"756
+} 0
+"758
+[v _output_hendler output_hendler `(v  1 e 0 0 ]
+{
+"768
+} 0
+"628
+[v _long_test_stat_hendler long_test_stat_hendler `(v  1 e 0 0 ]
+{
+"693
+} 0
+"342
+[v _eeprom_time_delay eeprom_time_delay `(v  1 e 0 0 ]
+{
+"344
+[v eeprom_time_delay@temp temp `ui  1 a 2 27 ]
+"342
+[v eeprom_time_delay@houres houres `ui  1 p 2 23 ]
+"348
+} 0
+"288
+[v _save_int_to_eeprom save_int_to_eeprom `(v  1 e 0 0 ]
+{
+[v save_int_to_eeprom@add add `uc  1 a 1 wreg ]
+[v save_int_to_eeprom@add add `uc  1 a 1 wreg ]
+[v save_int_to_eeprom@data data `ui  1 p 2 19 ]
+"290
+[v save_int_to_eeprom@add add `uc  1 a 1 21 ]
+"294
+} 0
+"30 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\EEP\write_B.c
+[v _Write_b_eep Write_b_eep `(v  1 e 0 0 ]
+{
+"32
+[v Write_b_eep@GIE_BIT_VAL GIE_BIT_VAL `uc  1 a 1 18 ]
+"30
+[v Write_b_eep@badd badd `ui  1 p 2 15 ]
+[v Write_b_eep@bdat bdat `uc  1 p 1 17 ]
+"46
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\EEP\busy_eep.c
+[v _Busy_eep Busy_eep `(v  1 e 0 0 ]
+{
+"15
+} 0
+"482 C:\user\Development\Shira_2/func.c
+[v _error_stat_hendler error_stat_hendler `(v  1 e 0 0 ]
+{
+"515
+} 0
+"93
+[v _blink_RED_LED blink_RED_LED `(v  1 e 0 0 ]
+{
+[v blink_RED_LED@blinks blinks `uc  1 a 1 wreg ]
+"94
+[v blink_RED_LED@i i `uc  1 a 1 21 ]
+"93
+[v blink_RED_LED@blinks blinks `uc  1 a 1 wreg ]
+[v blink_RED_LED@timeMs timeMs `ui  1 p 2 18 ]
+"96
+[v blink_RED_LED@blinks blinks `uc  1 a 1 20 ]
+"105
+} 0
+"10 C:\user\Development\Shira_2/delay.c
+[v _DelayMs DelayMs `(v  1 e 0 0 ]
+{
+[v DelayMs@cnt cnt `uc  1 a 1 wreg ]
+"23
+[v DelayMs@_dcnt _dcnt `uc  1 a 1 17 ]
+"18
+[v DelayMs@i i `uc  1 a 1 16 ]
+"10
+[v DelayMs@cnt cnt `uc  1 a 1 wreg ]
+"20
+[v DelayMs@cnt cnt `uc  1 a 1 15 ]
+"29
+} 0
+"137 C:\user\Development\Shira_2/func.c
+[v _activate_buzzer activate_buzzer `(v  1 e 0 0 ]
+{
+[v activate_buzzer@beeps beeps `uc  1 a 1 wreg ]
+[v activate_buzzer@beeps beeps `uc  1 a 1 wreg ]
+[v activate_buzzer@On_duration On_duration `uc  1 p 1 27 ]
+[v activate_buzzer@Off_duration Off_duration `uc  1 p 1 28 ]
+[v activate_buzzer@beeps beeps `uc  1 a 1 29 ]
+"149
+} 0
+"168
+[v _buzz_on buzz_on `(v  1 e 0 0 ]
+{
+[v buzz_on@duration duration `uc  1 a 1 wreg ]
+"184
+[v buzz_on@_dcnt_864 _dcnt `uc  1 a 1 24 ]
+"181
+[v buzz_on@_dcnt _dcnt `uc  1 a 1 23 ]
+"171
+[v buzz_on@calc_duration calc_duration `ui  1 a 2 25 ]
+"170
+[v buzz_on@temp_GIE temp_GIE `uc  1 a 1 22 ]
+"168
+[v buzz_on@duration duration `uc  1 a 1 wreg ]
+"172
+[v buzz_on@duration duration `uc  1 a 1 21 ]
+"189
+} 0
+"151
+[v _buzz_off buzz_off `(v  1 e 0 0 ]
+{
+[v buzz_off@duration duration `uc  1 a 1 wreg ]
+[v buzz_off@duration duration `uc  1 a 1 wreg ]
+"153
+[v buzz_off@duration duration `uc  1 a 1 15 ]
+"166
+} 0
+"307
+[v _eeprom_data_refresh eeprom_data_refresh `(v  1 e 0 0 ]
+{
+"340
+} 0
+"279
+[v _load_int_from_eeprom load_int_from_eeprom `(ui  1 e 2 0 ]
+{
+[v load_int_from_eeprom@add add `uc  1 a 1 wreg ]
+"280
+[v load_int_from_eeprom@a a `ui  1 a 2 20 ]
+"279
+[v load_int_from_eeprom@add add `uc  1 a 1 wreg ]
+"282
+[v load_int_from_eeprom@add add `uc  1 a 1 22 ]
+"286
+} 0
+"23 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\EEP\read_B.c
+[v _Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
+{
+[v Read_b_eep@badd badd `ui  1 p 2 15 ]
+"32
+} 0
+"394 C:\user\Development\Shira_2/func.c
+[v _display_voltage display_voltage `(v  1 e 0 0 ]
+{
+"397
+} 0
+"244
+[v _Charging_handler Charging_handler `(v  1 e 0 0 ]
+{
+"277
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 0 ]
+"508
+[v printf@flag flag `us  1 a 2 19 ]
+"501
+[v printf@width width `i  1 a 2 16 ]
+"528
+[v printf@val val `ui  1 a 2 13 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 11 ]
+"529
+[v printf@len len `ui  1 a 2 9 ]
+"530
+[v printf@cp cp `*.39Cuc  1 a 2 1 ]
+"499
+[v printf@c c `c  1 a 1 18 ]
+"506
+[v printf@prec prec `c  1 a 1 15 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 27 ]
+"1541
+} 0
+"51 C:\user\Development\Shira_2/usart.c
+[v _putch putch `(v  1 e 0 0 ]
+{
+[v putch@tx_byte tx_byte `uc  1 a 1 wreg ]
+[v putch@tx_byte tx_byte `uc  1 a 1 wreg ]
+[v putch@tx_byte tx_byte `uc  1 a 1 15 ]
+"57
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 17 ]
+"15
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 19 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 15 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 17 ]
+"53
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 26 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 22 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 24 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 20 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 19 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 15 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 17 ]
+"31
+} 0
+"12 C:\user\Development\Shira_2/ISR.c
+[v _ISR ISR `II(v  1 e 0 0 ]
+{
+"218
+} 0

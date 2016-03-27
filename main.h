@@ -61,17 +61,6 @@ void buzz_on(unsigned char duration);
 #define V_BAT_TEST_EN_TRIS TRISC0
 #define V_BAT_TEST_EN_LAT     LATCbits.LATC0
 
-//struct { // Flags for program
-//    unsigned msec10 : 1;        // 10msec time flag
-//    unsigned msec100 : 1;       // 100msec time flag
-//    unsigned msec300 : 1;       // 100msec time flag
-//    unsigned msec1000 : 1;      // 1000msec time flag
-//    unsigned sec10 : 1;         // 10sec time flag
-//    unsigned min1 : 1;          // 1min time flag
-//    unsigned bit6 : 1;
-//    unsigned bit7 : 1;
-//} stat;
-
 enum POWER_STAT{        //THIS IS FOR THE GRIS POWER MONITOR
     POWER_OK,
     POWER_FAIL
@@ -157,17 +146,21 @@ enum UNIT_TYPE {
 #define	COUNT_10MIN		10		// Number of Compare timeouts for 1minit
 #define	COUNT_1HOUR		6		// Number of Compare timeouts for 1minit
 
-struct{														// Flags for program
+
+// Flags for program
+// Timing Marks flags
+struct{					
  unsigned	msec5:1;				// 10msec time flag
  unsigned	msec10:1;				// 10msec time flag
  unsigned	msec100:1;				// 100msec time flag
- unsigned       msec500:1;                              // 500msec time flag
+ unsigned   msec500:1;              // 500msec time flag
  unsigned	msec1000:1;				// 1000msec time flag
  unsigned	sec10:1;
  unsigned	min1:1;
- unsigned       min10:1;
+ unsigned   min10:1;
  unsigned	hour1:1;
 } stat ;
+
 unsigned char Count_100m, // 	100msec counter
 Count_1000m, //	1000msec counter
 Count_500m,//300msec Counter
@@ -245,9 +238,6 @@ unsigned char lrn_sw_presed_on_remote;
 
 unsigned char i;
 
-
-
-
 unsigned char eraze_transmiters_cnt;
 void my_eeprom_write(unsigned char addr, unsigned char value);
 
@@ -269,10 +259,6 @@ unsigned char Sync_Last;
 
 unsigned char Learn_Window;
 
-
-
-
-
 /*  LED HANDLER */
 unsigned int    RED_LED_10mS_Timer,
                 GREEN_LED_10mS_Timer,
@@ -289,30 +275,7 @@ unsigned int    RED_LED_10mS_Timer,
 #define _500mS   50
 #define _1Sec   100
 
-
-
-
-unsigned char led_blink_cnt;
-enum TIME_IN_SEC_UNITS{ _0Sec_IN_SEC_UNITS,
-                        _1Sec_IN_SEC_UNITS,
-                        _2Sec_IN_SEC_UNITS,
-                        _3Sec_IN_SEC_UNITS,
-                        _4Sec_IN_SEC_UNITS,
-                        _5Sec_IN_SEC_UNITS,
-                        _6Sec_IN_SEC_UNITS,
-                        _7Sec_IN_SEC_UNITS,
-                        _8Sec_IN_SEC_UNITS,
-                        _9Sec_IN_SEC_UNITS};
-
-unsigned char title_timeout;
-
-#define     _100MSec_IN_100Msec_UNITS   1
-#define     _1Sec_IN_100Msec_UNITS      10
-#define     _2Sec_IN_100Msec_UNITS      20
-#define     _3Sec_IN_100Msec_UNITS      30
-#define     _10Sec_IN_100Msec_UNITS     100
-#define     BUZZER_DURATION_COAF        666
-
+#define BUZZER_DURATION_COAF        666
 unsigned int unit_ID;
 
 #define EXITING_ERROR "\n\rEXITING ERROR"
